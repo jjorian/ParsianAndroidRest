@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">گارسون پارسیان</string>
+
+    <!-- Strings related to login -->
+
+
+    <string name="action_sign_in">ورود</string>
+    <string name="action_sign_in_short">صفحه ورود</string>
+    <string name="error_invalid_email">آدرس ایمیل نامعتبر است</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">کلمه عبور صحیح نمی باشد</string>
+    <string name="error_field_required">فیلد را وارد کنید</string>
+    <string name="permission_rationale">با مدیرتان تماس بگیرید</string>
+    <string name="title_activity_login">ورود</string>
+
+    <string name="txt_username">نام کاربر</string>
+    <string name="txt_password">کلمه عبور</string>
+    <string name="txt_getdata">دریافت داده ها</string>
+    <string name="txt_addnew">سفارش جدید</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="txt_open">باز</string>
+    <string name="txt_close">بسته</string>
+    <string name="txt_downloadcenter">مرکز دانلود</string>
+    <string name="txt_checknewversion">بررسی نسخه جدید</string>
+    <string name="txt_manual">راهنمای نرم افزار</string>
+    <string name="txt_lastchange">آخرین تغییرات</string>
+    <string name="about_title">مجموعه نرم افزار های پخش مویرگی،گرم و محیطی پارسیان اندروید</string>
+    <string name="about_address">دفتر مرکزی -اصفهان- هشت بهشت غربی-حد فاصل خیابان ملک و خیابان نشاط - کوچه دهم پلاک 12-طبقه اول</string>
+    <string name="about_telegram">برای پیوستن به کانال رسمی پارسیان اندروید در تلگرام کلیک کنید</string>
+    <string name="about_licence">کلیه حقوق مادی و معنوی این نرم افزار متعلق به گروه نرم افزاری پارسیان اندروید می باشد</string>
+    <string name="txt_publishdateversion">تاریخ انتشار  شنبه 16 اسفند 1396</string>
+    <string name="txt_sendemail">ارسال ایمیل</string>
+    <string name="txt_send">ارسال</string>
+    <string name="msg_notemptyyourtext">حداقل باید 10 حرف وارد نمایید</string>
+    <string name="msg_pleasewait">صبور باشید در حال اتصال</string>
+
+
+</resources>

@@ -1,0 +1,70 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/colorAccentColor</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:windowBackground">@drawable/back2</item>
+        <item name="colorButtonNormal">@color/secondaryColor</item>
+        <item name="colorControlHighlight">@color/colorAccentColor</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:dialogTheme">@style/CustomDialogTheme</item>
+
+    </style>
+    <style name="OwnCardView" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+        <item name="android:layout_marginLeft">@dimen/margin_small</item>
+        <item name="android:layout_marginRight">@dimen/margin_small</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="cardBackgroundColor">#B5FFFFFF</item>
+    </style>
+    <style name="OwnCardViewWitoutBackground" parent="AppTheme">
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+        <item name="android:layout_marginLeft">@dimen/margin_small</item>
+        <item name="android:layout_marginRight">@dimen/margin_small</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardPreventCornerOverlap">false</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccentColor</item>
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:windowBackground">@color/colorAccentColor</item>
+        <item name="colorButtonNormal">@color/secondaryColor</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Glossy Gradient Button Style -->
+    <style name="GlossyGradientButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:shadowColor">#979797</item>
+        <item name="android:shadowRadius">3.0</item>
+        <item name="android:shadowDx">-0.5</item>
+        <item name="android:shadowDy">-0.5</item>
+        <item name="android:paddingLeft">@dimen/button_content_paddingLeft</item>
+        <item name="android:paddingRight">@dimen/button_content_paddingRight</item>
+        <item name="android:paddingTop">@dimen/button_content_paddingTop</item>
+        <item name="android:paddingBottom">@dimen/button_content_paddingBottom</item>
+    </style>
+
+</resources>
